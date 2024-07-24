@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #000;
+    outline: none;
+}
+
+.gallery img:focus {
+    border-color: blue;
+}
